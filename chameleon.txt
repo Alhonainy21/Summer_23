@@ -1,0 +1,10 @@
+apt-get update
+apt-get install screen -y
+screen -S test
+apt-get install git -y
+git clone https://github.com/Alhonainy21/my_experiments.git
+cd my_experiments
+chmod +x script.sh
+./script.sh
+chmod +x data??
+./data.sh
