@@ -3,7 +3,7 @@ cd /
 curl -L -o ddd https://www.dropbox.com/s/g430bmmuuc4nqrc/lung_generated.tar.gz?dl=0
 tar -zxvf ddd
 mv lung_generated lungg
-cd lungg
+cd lungg
 find -name '._*' -delete
 cd test
 cd acatest
@@ -12,7 +12,7 @@ mv *png /lungg/test/acatest
 cd ..
 rm -r lung*
 cd ..
-cd ntest 
+cd ntest
 cd lung_n4
 mv *png /lungg/test/ntest
 cd ..
@@ -26,8 +26,8 @@ rm -r lung*
 
 cd ../..
 cd train
-cd acatrain
-cd lung_aca4
+cd acatrain
+cd lung_aca4
 mv *png /lungg/train/acatrain
 cd ..
 rm -r lung*
