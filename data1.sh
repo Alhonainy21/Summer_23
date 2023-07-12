@@ -1,7 +1,7 @@
 cd /
 curl -L -o ddd https://www.dropbox.com/s/g430bmmuuc4nqrc/lung_generated.tar.gz?dl=0
 tar -zxvf ddd
-mv lung_generated lung
+mv lung_generated lungg
 cd lungg
 find -name '._*' -delete
 cd test
