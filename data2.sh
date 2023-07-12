@@ -1,3 +1,4 @@
+#!/bin/bash
 cd /
 curl -L -o ddd https://www.dropbox.com/s/g430bmmuuc4nqrc/lung_generated.tar.gz?dl=0
 tar -zxvf ddd
